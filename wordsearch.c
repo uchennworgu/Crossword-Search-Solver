@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h> // <-- this was here from the start!
+#include <string.h> 
 
-// Declarations of the two functions you will implement
-// Feel free to declare any helper functions
+
 void printPuzzle(char** arr, int n);
 void searchPuzzle(char** arr, int n, char** list, int listSize);
 
@@ -132,7 +131,7 @@ int main(int argc, char **argv) {
 }
 
 void printPuzzle(char** block, int bSize){
-	// This function will print out the complete puzzle grid (arr). It must produce the output in the SAME format as the samples in the instructions.
+	// This function will print out the complete puzzle grid (arr)
 	
 	for(int i=0; i<bSize; i++){
        
